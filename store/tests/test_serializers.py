@@ -1,5 +1,4 @@
-from unittest import TestCase
-
+from django_filters.compat import TestCase
 from django.contrib.auth.models import User
 from django.db.models import Count, Case, When, Avg
 
